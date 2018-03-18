@@ -12,7 +12,7 @@ export class Todolist1Component implements OnInit {
   constructor() { }
   ngOnInit() {
   }
-  @Input() tolist=[];
+  @Input() tolist:Array<any>;
   comlist=[];
   deleteData(i){
   	this.tolist.splice(i,1);
