@@ -1,0 +1,33 @@
+
+header{
+    height:70px;
+    background: rgba(37, 37, 37, 0.9);
+}
+.container{
+    width: 750px;
+    margin: 0 auto;
+    height:70px;
+}
+.inp{
+    width: 60%;
+    height: 24px;
+    
+    margin-right:30px;
+    margin-top: 18px;
+    margin-left:40px;
+    border-radius:6px;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.24), 0 1px 6px rgba(0,0,0,0.45) inset;
+    border: none;
+}
+label{
+    float: left;
+    width: 100px;
+    line-height: 55px;
+    color: #fff;
+    font-size: 24px;
+}
+.btn{
+    float:rigth;
+    width:40px;
+    border-radius:3px;
+}

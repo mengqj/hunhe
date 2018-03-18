@@ -1,0 +1,48 @@
+ul li{
+    list-style:none;
+}
+#box{
+    width:100%;
+    background:#cdcdcd;
+    height:650px;
+}
+.container{
+    width:700px;
+    margin:0 auto;
+}
+li{
+    height: 32px;
+    line-height: 32px;
+    background: #fff;
+    position: relative;
+    margin-top: 10px;
+    padding: 0 45px;
+    border-radius: 3px;
+    border-left: 5px solid #629A9C;
+}
+li input{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+li button{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+
+}
+
+.num{
+    margin-left:530px;
+    width:20px;
+    height:20px;
+    background-color:#fff;
+    opacity:0.9;
+    border-radius:5px;
+    text-align: center;
+    font-weight:lighter;
+}
+
