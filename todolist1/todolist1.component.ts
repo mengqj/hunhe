@@ -8,6 +8,7 @@ import {GetDataService } from './../services/get-data-service.service';
   styleUrls: ['./todolist1.component.css']
 })
 export class Todolist1Component implements OnInit {
+  // getdata=new GetDataService();
   constructor(public getdata:GetDataService) { }
   data;
   key2;
@@ -18,10 +19,12 @@ export class Todolist1Component implements OnInit {
     this.key2=this.data.split(',');
     this.data1=this.getdata.get('key1');
     this.key1=this.data1.split(',');
-    if(this.key2!=''||this.key1!='')
+    if(this.key2!='')
     {
       this.comlist=this.key2;
+      if(this.key1!=''){
       this.tolist=this.key1;
+      }
     }
  
   }

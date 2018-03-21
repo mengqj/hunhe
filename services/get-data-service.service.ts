@@ -16,6 +16,6 @@ this.list=localStorage.setItem(key,value);
      return this.list;
    }
    delete(key){
-     this.list.localStorage.removeItem(key);
+     this.list=localStorage.removeItem(key);
    }
 }
