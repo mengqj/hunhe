@@ -1,0 +1,23 @@
+ul,li{
+    list-style: none;
+    margin:50px auto;
+    width:50%;
+    
+}
+li{
+    width: 25%;
+    font-size: 13px;
+    float: left;
+    margin: 5%;
+    height: 270px;
+    border:1px solid gray;
+    border-radius:5%;
+    text-align:center;
+}
+
+img{
+    width:100%;
+}
+.price{
+    color:red;
+}

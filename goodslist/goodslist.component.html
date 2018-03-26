@@ -1,0 +1,9 @@
+<router-outlet></router-outlet>
+<ul>
+  <li *ngFor="let item of list;let i =index;">
+    
+    <img src="{{item.goodsListImg}}" alt="">
+    <p>{{item.goodsName}}</p>
+    <p class="price">￥{{item.price}}</p>
+  </li>
+</ul>
