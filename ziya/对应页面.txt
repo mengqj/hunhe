@@ -1,0 +1,6 @@
+SetPage   设置页
+FubucontentPage   发布信息页
+MsgcontentPage    消息内容页
+messagePage       消息页面
+AboutPage         发布页
+ contactPge        我的页面

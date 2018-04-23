@@ -1,0 +1,84 @@
+page-msgcontent {
+    .back-btn{
+        width:10px;
+        height:25px;
+        margin-top:10px;
+        margin-left:15px;
+     }
+     .title{
+        margin-top:-25px;
+         color:#000;
+     }
+     .time{
+         width:100%;
+         height:20px;
+        //  background-color: red;
+         text-align: center;
+         margin:15px 0;
+         color: gray;
+     }
+     .touxiang1{
+         width:60px;
+         height:60px;
+         border-radius:30px;
+         float:left;
+         margin-left:15px;
+     }
+     .content1{
+         float: left;
+         margin-left:15px;
+         font-size:20px;
+         background-color:#fedb47;
+         width:270px;
+         padding:0 15px;
+         height:60px;
+         line-height:60px;
+         border-radius:100px;
+     }
+     .divider{
+         width:100%;
+         height:70px;
+         margin-bottom: 15px;
+     }
+     .touxiang2{
+        width:60px;
+        height:60px;
+        border-radius:30px;
+        float:right;
+        margin-right:15px;
+    }
+    .content2{
+        float: right;
+        margin-right:15px;
+        font-size:20px;
+        background-color:greenyellow;
+        width:270px;
+        padding:5px 20px;
+        // height:60px;
+        line-height:30px;
+        border-radius:80px;
+    }
+    .voice{
+        float: left;
+        width:50px;
+        height:50px;
+        border-radius:25px;
+        margin-left:15px;
+
+    }
+   .inputext{
+       float: left;
+       margin-left:15px;
+       color:#999999;
+       line-height:50px;
+       font-size:18px;
+   }
+   .ion{
+    float:right;
+    width:50px;
+    height:50px;
+    border-radius:25px;
+    margin-right:10px;
+
+   }
+}

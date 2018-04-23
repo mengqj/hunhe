@@ -1,0 +1,60 @@
+<!--
+  Generated template for the SetPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header no-border>
+  <ion-navbar  color="yel">
+      <!-- <button ion-button ion-only> -->
+        <!-- <ion-icon name="arrow-back"></ion-icon> -->
+        <img src="assets/imgs/back.png" alt="" class="back-btn">
+      <!-- </button> -->
+    <ion-title text-center class="title">
+       设&nbsp;置
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-list >
+    <div class="list1">
+      <span class="list-content">图片质量设置</span>
+      <img src="assets/imgs/right1.png" alt="" class="go-icon">
+    </div>
+    <div class="list1">
+      <span class="list-content">自动播放视频设置</span>
+      <img src="assets/imgs/right1.png" alt="" class="go-icon">
+    </div>
+    <div class="list1">
+      <span class="list-content">消息提醒设置</span>
+      <img src="assets/imgs/right1.png" alt="" class="go-icon">
+    </div>
+    <div class="list1">
+      <span class="list-content">开启听筒模式</span>
+      <!-- <img src="assets/imgs/right1.png" alt="" class="go-icon"> -->
+      <ion-toggle [(ngModel)]="mushrooms" class="go-icon1"></ion-toggle>
+
+    </div>
+    <div class="list1">
+      <span class="list-content">关于资芽</span>
+      <img src="assets/imgs/right1.png" alt="" class="go-icon">
+    </div>
+    <div class="list1">
+      <span class="list-content">资芽公约</span>
+      <img src="assets/imgs/right1.png" alt="" class="go-icon">
+    </div>
+    <div class="list1">
+      <span class="list-content">分享资芽</span>
+      <img src="assets/imgs/right1.png" alt="" class="go-icon">
+    </div>
+    <div class="list1">
+      <span class="list-content">清除缓存</span>
+      <!-- <img src="assets/imgs/right1.png" alt="" class="go-icon"> -->
+      <p class="clear">20.5M</p>
+    </div>
+    <button class="btn" ion-button>退&nbsp;出&nbsp;登&nbsp;录</button>
+  </ion-list>
+  
+</ion-content>

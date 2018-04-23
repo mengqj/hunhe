@@ -1,0 +1,218 @@
+page-infcontent {
+    .back-btn{
+        width:10px;
+        height:25px;
+        margin-top:10px;
+        margin-left:15px;
+     }
+     .title{
+         margin-top:-25px;
+         color:#000;
+     }
+     .dian{
+         float: right;
+         width: 40px;
+         margin-top:-20px;
+         margin-right:15px;
+     }
+     .ions-title{
+         margin-left:15px;
+     }
+     .listbox{
+         width:100%;
+         height:80px;
+         border-bottom:1.5px solid #eeeeee;;
+     }
+     .list1{
+         float: left;
+         margin-left:15px;
+         font-size:17px;
+         color:#b0b0b0;
+         margin-top:0px;
+         
+     }
+     .star1{
+         float:left;
+         width:15px;
+         margin-top:4px;
+         margin-left:8px;
+     }
+     .star2{
+        float:left;
+        width:17px;
+        margin-top:4px;
+        margin-left:8px;
+    }
+    .star3{
+        float: right;
+        margin-right:15px;
+        width:40px;
+        margin-top:-30px;
+    }
+    .star{
+        float: right;
+        margin-right:-30px;
+        color:#b0b0b0;
+    }
+    .list2box{
+    width:100%;
+    height:55px;
+    border-bottom:1.5px solid #eeeeee;
+    }
+    .list2{
+        float: left;
+        margin-left:15px;
+        font-size:17px;
+        color:#b0b0b0;
+        // margin-top:0px;
+        
+    }
+    .price{
+        float: left;
+        margin-left: 20px;
+        font-size:25px;
+        margin-top:10px;
+        color:#e68099;
+    }
+    .list3box{
+        width:100%;
+        clear:both;
+        height:55px;
+        border-bottom:1.5px solid #eeeeee;
+    }
+    .list3{
+        float: left;
+        margin-left:15px;
+        font-size:17px;
+        color:#b0b0b0;
+        // margin-top:0px;
+        
+    }
+    .list3-content{
+        float:left;
+        margin-left:30px;
+        font-size:19px;
+        margin-top:15px;
+        
+    }
+   .divider{
+      width:100%;
+      height:12px;
+      background-color: #f9f9f9;
+    }
+    .information{
+       width:100%;
+    }
+    .describe{
+        width:93%;
+        // background-color:red;
+        margin:0 3.5%;
+        height:90px;
+        border-top:1.5px solid #eeeeee;
+    
+    }
+    .describe-content{
+     font-size:17px;
+     color:#b3b3b3;
+     margin-top:10px;
+    }
+    .divider1{
+        width:100%;
+        height:8px;
+        background-color:#f9f9f9;
+    }
+    .list4box{
+        width:100%;
+        height:65px;
+        // background-color:red;
+        border-bottom:1.5px solid #eeeeee;
+    }
+    .voice{
+        float:left;
+        margin-left:25px;
+        width:120px;
+        height:40px;
+        margin-top:10px;
+
+    }
+    .time{
+        float:left;
+        margin-left:10px;
+        font-size:15px;
+        margin-top:4px;
+        color:#dcdcdc;
+    }
+    .leftarrow{
+        width:15px;
+        height:30px;
+        margin-top:25px;
+        float:left;
+    }
+    .license{
+        width:303px;
+        height:70px;
+        margin-left:10px;
+        margin-top:10px;
+    }
+    .rightarrow{
+        width:15px;
+        height:30px;
+        margin-top:25px;
+        float:right;
+    }
+    .list5-content{
+        float:left;
+        margin-left:15px;
+        color:#e5e5e5;
+        font-size:18px;
+        margin-top:15px;
+    }
+    .list5-content1{
+        float:right;
+        margin-right:15px;
+        color:#e5e5e5;
+        font-size:18px;
+        margin-top:15px;
+    }
+    .list5box{
+        width:100%;
+        height:50px;
+    }
+    .touxiang{
+        width:50px;
+        height: 50px;
+        border-radius:25px;
+        margin:10px 0px 10px 15px;
+        float:left;
+    }
+    .number{
+        float:left;
+        margin-left:10px;
+        font-size:15px;
+        margin-top:25px;
+    }
+    .check{
+        height:67px;
+        width:112px;
+        line-height:67px;
+        background-color:#ff3366;
+        float:right;
+        margin:0;
+        padding:0;
+        text-align:center;
+        color:#fff;
+        font-size:19px;
+    }
+    .talk{
+        height:67px;
+        width:100px;
+        line-height:67px;
+        background-color:#fedb47;
+        float:right;
+        margin:0;
+        padding:0;
+        text-align:center;
+        // color:#fff;
+        font-size:19px;
+    }
+}

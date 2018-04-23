@@ -1,0 +1,131 @@
+page-fubucontent {
+    p{
+        margin:0;
+        padding:0;
+    }
+    .back-btn{
+        width:10px;
+        height:25px;
+        margin-top:10px;
+        margin-left:15px;
+     }
+     .title{
+        margin-top:-25px;
+         color:#000;
+     }
+     .list1box{
+         width:100%;
+         height:50px;
+        //  background-color:red;
+        border-bottom:1px solid #eeeeee;
+        clear:both;
+        line-height:50px;
+     }
+     .list1-title{
+         float:left;
+         margin-left:15px;
+         font-size:18px;
+         color:#b3b3b3;
+     }
+     .list1-content{
+        float:left;
+        margin-left:60px;
+        font-size:19px;
+        color:#d2d2d2;
+     }
+     .list1-content1{
+        float:left;
+        margin-left:60px;
+        font-size:19px;
+        // color:#d2d2d2;
+     }
+     .list1-content2{
+        float:left;
+        margin-left:40px;
+        font-size:19px;
+        color:#d2d2d2;
+     }
+     .list1-content3{
+        float:left;
+        margin-left:40px;
+        font-size:19px;
+        // color:#d2d2d2;
+     }
+     .go-icon{
+        float:right;
+        margin-right:15px;
+        width:13px;
+        height:25px;
+        margin-top:16px;
+    }
+    .divider{
+        width:100%;
+        height:50px;
+        background-color:#f9f9f9;
+        line-height:50px;
+        font-size:18px;
+        padding-left:15px;
+        color:#666666;
+    }
+    textarea{
+        width:100%;
+        // background-color:red;
+        font-size:18px;
+        padding-left:15px;
+        border:none;
+    }
+    .list2box{
+        width:100%;
+        height:50px;
+        // background-color: red;
+        border-top:1px solid #eeeeee;
+        line-height: 50px;
+    }
+    .list2-icon{
+        width:20px;
+        height:30px;
+        float: left;
+        margin-left:15px;
+        margin-top:10px;
+    }
+    .list2-icon1{
+        width:30px;
+        height:25px;
+        float: left;
+        margin-left:40px;
+        margin-top:10px;
+    }
+    .divider1{
+        width:100%;
+        height:15px;
+        background-color:#f9f9f9;
+    }
+    .list3box{
+        width:100%;
+        height:50px;
+        // background-color:red;
+        line-height:50px;
+        border-bottom:1px solid #eeeeee;
+    }
+    .list3-icon{
+        float: right;
+        width:13px;
+        height:17px;
+        margin-right:15px;
+        margin-top:17px;
+    }
+    .list3-content{
+        float:right;
+        color:#cccccc;
+        font-size:16px;
+        margin-right:10px;
+    }
+    .btn{
+        width:90%;
+        height:60px;
+        margin:40px 5% 0 5%;
+        background-color:#fedb47;
+        font-size:20px;
+        // font-weight:bold;
+    }
+}
